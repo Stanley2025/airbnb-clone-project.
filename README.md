@@ -1,92 +1,124 @@
-# airbnb-clone-project.
-This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
+# StayEase: Airbnb Clone Project
 
-Tech Stack
-Frontend: HTML, CSS, JavaScript (React or similar framework)
-Version Control: Git and GitHub
-Design Tools: Figma for UI/UX design
+##  Project Overview
 
-Key Features
-Property search and filtering
-Detailed property viewing
-Secure checkout process
-User authentication
+StayEase is a full-stack Airbnb clone web application. It allows users to search, view, and book vacation properties. This project focuses on building a responsive, accessible, and user-friendly accommodation booking platform that mimics Airbnb’s core functionalities.
 
-# New Section
-“UI/UX Design Planning.”
-Design Goals
-Create intuitive booking flow
-Maintain visual consistency
-Ensure fast loading times
-Prioritize mobile responsiveness
+##  Tech Stack
 
-Color Styles:
+- *Frontend: HTML, CSS, JavaScript, React
+- Version Control: Git, GitHub
+- Design Tools: Figma
+- Other Tools: Vite (or Create React App), ESLint, Prettier
 
-Primary: #FF5A5F
-Secondary: #008489
-Background: #FFFFFF
-Text: #222222
-Secondary Text: #717171
+---
 
-Typography:
+##  UI/UX Design Planning
 
-Primary Font: Circular, Medium (500), 16px
-Headings: Circular, Bold (700), 24px-32px
-Secondary Text: Circular, Book (400), 14px
+###  Design Goals
 
-Explain the importance of identifying design properties of a mock up design.
-Clearly identified design properties help developers understand exactly what to build. Without this, miscommunication can lead to broken designs or inconsistent user experiences.
+- Create a smooth and intuitive booking flow.
+- Ensure fast loading and excellent responsiveness.
+- Maintain a consistent, visually appealing interface.
+- Prioritize accessibility and mobile-first design.
 
-Key Features
-Property search and filtering
-Detailed property viewing
-Secure checkout process
-User authentication
+### 🚀 Key Features
 
-Page	Description
-Property Listing View--Grid display of available properties with filters
-Listing Detailed View--Complete property details with images and booking form
-Simple Checkout View--Streamlined payment and booking confirmation
+- Property search and filtering
+- Detailed property views with images
+- Simple checkout process
+- User authentication system
 
-Importance of a user-friendly design in a booking system.
-A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
+ 🧭 Primary Pages
 
- “Project Roles and Responsibilities.”
- Project Manager--Oversees timeline, coordinates team, manages deliverables
+| Page                  | Description                                                         |
+|-----------------------|----------------------------------------------------------------------|
+| Property Listing View | Grid of all available properties with filters and search options     |
+| Listing Detailed View | Displays full property information, images, map, and booking form    |
+| Simple Checkout View  | Streamlined booking form with payment and confirmation options       |
 
- Frontend Developers--Implements UI components, ensures responsive design
+###  Importance of User-Friendly Design
 
- Backend Developers--Builds APIs, manages database, implements business logic
+A clear and user-centered design improves the experience of users, reduces confusion during the booking process, and leads to higher satisfaction and conversions. Elements like responsiveness, intuitive navigation, and visual consistency contribute to trust and usability.
 
- Designers--Creates mockups, maintains design system, ensures UX quality
+-
 
- QA/Testers--Writes test cases, performs testing, reports bugs
+##  UI/UX Design Specifications
 
- DevOps Engineers--Manages deployment, CI/CD pipeline, server infrastructure
+### Color Styles
 
- Product Owner--Defines requirements, prioritizes features, represents stakeholders
+- Primary: `#FF5A5F`
+- Secondary: `#008489`
+- Background: `#FFFFFF`
+- Text: `#222222`
+- Secondary Text: `#717171`
 
- Scrum Master--Facilitates agile processes, removes blockers, organizes meetings
- 
-# New Section 
- “UI Component Patterns”
- Navbar
- 
-Logo
-Search bar
-User navigation
-Responsive menu
+### Typography
 
-Property Card
+- Primary Font Family: Circular
+- Font Weights:
+  - Book: 400
+  - Medium: 500
+  - Bold: 700
+- **Font Sizes:** 
+  - Body Text: 14px, 16px
+  - Headings: 24px – 32px
 
-Property image
-Basic details (price, location, rating)
-Favorite button
-Responsive layout
+###  Why Identify Design Properties?
 
-Footer
+Identifying UI elements like color, font, and spacing helps developers match the mockup exactly, maintain design consistency across components, and speed up team collaboration.
 
-Site links
-Company information
-Social media links
-Copyright information
+---
+
+## Project Roles and Responsibilities
+
+| Role              | Responsibilities                                                                 |
+|-------------------|----------------------------------------------------------------------------------|
+| Project Manager   | Oversees timeline, team coordination, and delivery checkpoints                |
+| Frontend Developers | Build responsive UI using reusable components and ensure browser compatibility |
+| Backend Developers  | Create RESTful APIs, manage databases, and implement business logic         |
+| Designers         | Create wireframes and mockups using Figma and ensure UI/UX consistency      |
+|QA/Testers         | Write and run test cases, perform UI/UX testing, and report issues         |
+| DevOps Engineers    | Set up CI/CD pipelines, manage hosting and deployment                      |
+| Product Owner       | Gather requirements and prioritize features                                |
+| Scrum Master       | Facilitate standups, sprints, retrospectives, and help remove blockers     |
+
+---
+
+##  UI Component Patterns
+
+### Planned Components
+
+####  Navbar
+- Logo
+- Search bar
+- User navigation
+- Responsive hamburger menu
+
+####  Property Card
+- Property image
+- Price, location, and rating
+- “Favorite” button
+- Responsive layout
+
+####  Footer
+- Site navigation links
+- About/contact section
+- Social media handles
+- Copyright
+
+###  Component Design Goals
+
+Each UI component will be:
+- Reusable and modular
+- Accessible and keyboard-friendly
+- Styled consistently based on Figma
+- Mobile responsive
+
+---
+
+## 📌 Status & Progress
+
+- ✅ Project initialized and repository created
+- 🔄 Documentation in progress
+- 🟡 Awaiting Manual QA review
